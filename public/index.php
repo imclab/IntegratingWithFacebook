@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "php-sdk/src/facebook.php"; 
+require_once "../vendor/autoload.php";
 require_once "../include/config.php";
 
 $config = array(
